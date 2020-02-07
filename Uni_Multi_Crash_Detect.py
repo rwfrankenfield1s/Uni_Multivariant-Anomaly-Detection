@@ -79,6 +79,13 @@ plt.show()
 
 ####################################################################
 
+#print(df.iloc[:,3])
+#print(df.iloc[:,18])
+
+plt.xlabel('Severity')
+plt.ylabel('Location')
+plt.plot(df.iloc[:,3],df.iloc[:,18],'bx')
+plt.show()
 
 
 ##https://towardsdatascience.com/anomaly-detection-for-dummies-15f148e559c1
